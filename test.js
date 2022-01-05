@@ -1,5 +1,5 @@
 var request = require('supertest');
-var app = require('./app.js');
+var app = require('./src/index.js');
 
 describe('GET /', function() {
 	it('displays "Great job on this assignment!"', function(done) {
